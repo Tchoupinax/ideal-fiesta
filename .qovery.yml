@@ -1,0 +1,11 @@
+---
+application:
+  name: "ideal-fiesta"
+  project: "toto"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-ideal-fiesta"
+  routes:
+  - application_name: "ideal-fiesta"
+    paths:
+    - "/*"
